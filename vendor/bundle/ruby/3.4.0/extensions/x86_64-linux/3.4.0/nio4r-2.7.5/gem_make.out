@@ -1,0 +1,53 @@
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.5/ext/nio4r
+/usr/bin/ruby extconf.rb
+checking for unistd.h... yes
+checking for rb_io_descriptor()... yes
+checking for linux/aio_abi.h... yes
+checking for linux/io_uring.h... yes
+checking for sys/select.h... yes
+checking for port_event_t in poll.h... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for port_event_t in port.h... no
+checking for sys/resource.h... yes
+creating Makefile
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.5/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20260916-9884-26b3md sitelibdir\=./.gem.20260916-9884-26b3md clean
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.5/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20260916-9884-26b3md sitelibdir\=./.gem.20260916-9884-26b3md
+compiling bytebuffer.c
+compiling monitor.c
+compiling nio4r_ext.c
+compiling selector.c
+In file included from nio4r_ext.c:6:
+../libev/ev.c:2136:31: warning: ‘ev_default_loop_ptr’已初始化，却又被声明为‘extern’
+ 2136 |   EV_API_DECL struct ev_loop *ev_default_loop_ptr = 0; /* needs to be initialised to make it a definition despite extern */
+      |                               ^~~~~~~~~~~~~~~~~~~
+selector.c: 在函数‘NIO_Selector_wakeup’中:
+selector.c:525:5: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  525 |     write(selector->wakeup_writer, "\0", 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c: 在函数‘evpipe_write’中:
+../libev/ev.c:2798:11: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 2798 |           write (evpipe [1], &counter, sizeof (uint64_t));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c:2810:11: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 2810 |           write (evpipe [1], &(evpipe [1]), 1);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c: 在函数‘pipecb’中:
+../libev/ev.c:2831:11: warning: ignoring return value of ‘read’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 2831 |           read (evpipe [1], &counter, sizeof (uint64_t));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c:2845:11: warning: ignoring return value of ‘read’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 2845 |           read (evpipe [0], &dummy, sizeof (dummy));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linking shared-object nio4r_ext.so
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.5/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20260916-9884-26b3md sitelibdir\=./.gem.20260916-9884-26b3md install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20260916-9884-26b3md
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.5/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20260916-9884-26b3md sitelibdir\=./.gem.20260916-9884-26b3md clean

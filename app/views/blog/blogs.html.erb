@@ -1,2 +1,16 @@
-<h1>Blog#blogs</h1>
-<p>Find me in app/views/blog/blogs.html.erb</p>
+<% content_for :title, @blog_page_title %>
+<h1>Blogs</h1>
+<p>These are all blog posts.</p>
+
+<!-- <p></p> -->
+<div>
+    <ul>
+        <p><%= @list_text %></p>
+    </ul>
+</div>
+
+<%= link_to "Index Page", root_path %>
+
+<footer class="footer">
+    <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+</footer>

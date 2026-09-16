@@ -2,6 +2,7 @@
 <html>
     <head>
         <title><%= @page_name %></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
     <body>
         <header>
@@ -10,7 +11,13 @@
         <main style="font-size: 19px">
             <p>Hola! Ruby on Rails</p>
             <p>This is my personal website.</p>
+            <p>My name is "XinYue Neko"</p>
             <p>I'm from China.</p>
+            <ul>
+                <li><%= link_to "Neko's Page", me_path%></li>
+                <li><i class="fa-brands fa-bilibili"></i></li>
+            </ul>
+            <%= link_to "Blogs Page", blogs_path %>
         </main>
         <footer class="footer">
             <p>&copy; 2026 <%= @name %>. All rights reserved.</p>

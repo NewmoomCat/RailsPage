@@ -6,6 +6,7 @@ class BlogController < ApplicationController
   end
   def neko
     @neko_page_title = "XinYueNeko's Page"
+    @neko_h1_title = "Personal Page"
     render 'blog/neko'
   end
 end

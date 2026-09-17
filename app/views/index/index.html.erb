@@ -15,11 +15,13 @@
             <p>I'm from China.</p>
             <ul>
                 <li><%= link_to "@ Neko's Page", me_path%></li>
-                <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "__blank"%></li>
+                <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "_blank"%></li>
             </ul>
-            <%= link_to "Blogs Page", blogs_path %>
+            <p><%= link_to "Blogs Page", blogs_path %></p>
+            <p><%= link_to "My Projects", projects_path %></p>
         </main>
         <footer class="footer">
+            <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
             <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
         </footer>
     </body>

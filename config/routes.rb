@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "projects" => "projects#index"
   get "blogs" => "blog#blogs"
   get "me" => "blog#neko"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

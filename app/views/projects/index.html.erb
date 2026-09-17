@@ -1,0 +1,18 @@
+<% content_for :title, @project_page %>
+
+<h1>Neko's Projects</h1>
+<p>Some porject by me</p>
+
+<ul>
+    <li>
+        <p><%= link_to "https://github.com/NewmoomCat/NekoQD", target: "_blank" do %> NekoQD <% end %></p>
+        <p>Just a simple check-in plugin for Endstone, built with Python.</p>
+    </li>
+</ul>
+
+<p><%= link_to "Index Page", root_path %></p>
+
+<footer class="footer">
+    <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
+    <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+</footer>

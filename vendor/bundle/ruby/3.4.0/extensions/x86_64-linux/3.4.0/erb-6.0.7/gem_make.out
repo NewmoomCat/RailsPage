@@ -1,0 +1,22 @@
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/erb-6.0.7/ext/erb/escape
+/usr/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/erb-6.0.7/ext/erb/escape
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-fw4822 sitelibdir\=./.gem.20260917-111572-fw4822 clean
+make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/erb-6.0.7/ext/erb/escape
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-fw4822 sitelibdir\=./.gem.20260917-111572-fw4822
+make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/erb-6.0.7/ext/erb/escape
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-fw4822 sitelibdir\=./.gem.20260917-111572-fw4822 install
+make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
+/usr/bin/install -c -m 0755 escape.so ./.gem.20260917-111572-fw4822/erb
+
+current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260917-111572-fw4822 sitelibdir\=./.gem.20260917-111572-fw4822 clean

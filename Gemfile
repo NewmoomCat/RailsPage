@@ -28,6 +28,9 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
+gem "kramdown"
+gem "kramdown-parser-gfm" # 支持 GitHub 风格的 Markdown（表格、删除线等）
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 

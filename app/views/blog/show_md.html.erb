@@ -1,5 +1,4 @@
 <% content_for :title, @p_title %>
-<h1><%= @p_title %></h1>
 
 <div class="markdown-body">
     <%= raw @h_content %>
@@ -7,3 +6,8 @@
 
 <p><%= link_to "Go back", :back %></p>
 <p><%= link_to "Index Page", root_path %></p>
+
+<footer class="footer">
+  <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
+  <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+</footer>

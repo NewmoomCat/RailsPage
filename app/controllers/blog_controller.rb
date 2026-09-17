@@ -22,5 +22,7 @@ class BlogController < ApplicationController
     else
       render plain: "Markdown not found: #{file_path}", status: 404
     end
+    @name = "XinYueNeko"
+    render 'blog/show_md'
   end
 end

@@ -4,10 +4,7 @@
 </header>
 <main style="font-size: 19px">
   <%= image_tag "/images/ii.jpg", alt: "Reisa Index Image", style: "width: 210px; height: 210px;"%>
-  <p>Hola! Ruby on Rails</p>
-  <p>This is my personal website.</p>
-  <p>My name is "XinYue Neko"</p>
-  <p>I'm from China.</p>
+  <p><%= simple_format(@text) %></p>
   <ul>
     <li><%= link_to "@ Neko's Page", me_path%></li>
     <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "_blank"%></li>

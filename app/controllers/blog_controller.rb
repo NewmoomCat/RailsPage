@@ -27,7 +27,7 @@ I enjoy playing "Minecraft", "Blue Archive", and "CS2".
       @h_content = Kramdown::Document.new(md_text, input: "GFM").to_html
       @p_title = params[:id].capitalize
     else
-      render plain: "Markdown not found: #{file_path}", status: 404
+      render 'blog/404', status: 404, layout: false and return
     end
     @name = "XinYueNeko"
     render 'blog/show_md'

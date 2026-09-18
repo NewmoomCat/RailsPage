@@ -8,12 +8,11 @@ class BlogController < ApplicationController
   def neko
     @neko_page_title = "XinYueNeko's Page"
     @neko_h1_title = "Personal Page"
-    @Text = <<~TEXT
-Hola! Guys
+    @text = <<~TEXT
+Hola, guys!
 I'm XinYueNeko (NewmoomCat)
-Learning exploring: PHP, Python, Java, Ruby and GO
+Learning exploring: PHP, Python, Java, Ruby and Go
 I enjoy playing "Minecraft", "Blue Archive", and "CS2".
-
 
     TEXT
     @name = "XinYueNeko"

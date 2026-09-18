@@ -1,12 +1,19 @@
 <% content_for :title, @neko_page_title %>
 <h1><%= @neko_h1_title %></h1>
-<%= image_tag "/images/tx.jpg", alt: "XinYue Neko", style: "width: 240px; hight: 240px; border-radius: 50%;", class: "w-24 rounded" %>
+<%= image_tag "/images/tx.jpg", alt: "XinYue Neko", style: "width: 240px; height: 240px; border-radius: 50%;", class: "w-24 rounded" %>
 <h3>XinYue Neko</h3>
 
-<p><%= simple_format(@Text) %></p>
+<p><%= simple_format(@text) %></p>
+
+<p>Contact me</p>
+<ul>
+  <li><p>QQ: 3649745663</p></li>
+  <li><p>Discord: @xinyue_neko</p></li>
+  <li><p>KakaoTalk: XinYue_Neko</p></li>
+</ul>
 
 <p><%= link_to "Index Page", root_path %></p>
 <footer class="footer">
-    <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
-    <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+  <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
+  <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
 </footer>

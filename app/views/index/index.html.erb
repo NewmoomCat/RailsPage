@@ -1,31 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title><%= @page_name %></title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta charset="UTF-8s">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="h1">Index Page</h1>
-        </header>
-        <main style="font-size: 19px">
-            <%= image_tag "/images/ii.jpg", alt: "Reisa Index Image", style: "width: 210px; height: 210px;"%>
-            <p>Hola! Ruby on Rails</p>
-            <p>This is my personal website.</p>
-            <p>My name is "XinYue Neko"</p>
-            <p>I'm from China.</p>
-            <ul>
-                <li><%= link_to "@ Neko's Page", me_path%></li>
-                <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "_blank"%></li>
-            </ul>
-            <p><%= link_to "Blogs Page", blogs_path %></p>
-            <p><%= link_to "My Projects", projects_path %></p>
-        </main>
-        <footer class="footer">
-            <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
-            <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
-        </footer>
-    </body>
-</html>
+<% content_for :title, @page_name %>
+<header>
+  <h1 class="h1">Index Page</h1>
+</header>
+<main style="font-size: 19px">
+  <%= image_tag "/images/ii.jpg", alt: "Reisa Index Image", style: "width: 210px; height: 210px;"%>
+  <p>Hola! Ruby on Rails</p>
+  <p>This is my personal website.</p>
+  <p>My name is "XinYue Neko"</p>
+  <p>I'm from China.</p>
+  <ul>
+    <li><%= link_to "@ Neko's Page", me_path%></li>
+    <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "_blank"%></li>
+  </ul>
+  <p><%= link_to "Blogs Page", blogs_path %></p>
+  <p><%= link_to "My Projects", projects_path %></p>
+</main>
+<footer class="footer">
+  <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
+  <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+</footer>

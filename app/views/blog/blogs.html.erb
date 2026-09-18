@@ -3,21 +3,24 @@
 <p>These are all blog posts.</p>
 
 <!-- <p></p> -->
+<p><%= @list_text %></p>
 <div>
-    <ul>
-        <p><%= @list_text %></p>
-        <li>
-          <p><%= link_to "Hola", post_path("hola") %> Hola! Ruby on Rails</p>
-        </li>
-        <li>
-          <p><%= link_to "MCPE Protocols", post_path("minecraft_pe_releases_protocols") %> About Minectaft PE Network Protocols</p>
-        </li>
-    </ul>
+  <ul>
+    <li>
+      <p><%= link_to "Hola", post_path("hola") %> Hola! Ruby on Rails</p>
+    </li>
+    <li>
+      <p><%= link_to "MCPE Protocols", post_path("minecraft_pe_releases_protocols") %> About Minectaft PE Network Protocols</p>
+    </li>
+    <li>
+      <p><%= link_to "404 Test", post_path("404_error") %> Test 404.html</p>
+    </li>
+  </ul>
 </div>
 
 <p><%= link_to "Index Page", root_path %></p>
 
 <footer class="footer">
-    <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
-    <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
+  <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
+  <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
 </footer>

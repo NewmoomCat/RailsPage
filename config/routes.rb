@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
+  get "ns/index"
   get "projects" => "projects#index"
   get "blogs" => "blog#blogs"
   get "me" => "blog#neko"
-
   get "blogs/:id" => "blog#show_md", as: :post
+
+  # 博客之外
+  get "ns" => "ns#index"
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

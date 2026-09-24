@@ -1,4 +1,4 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
 /usr/bin/ruby extconf.rb
 checking for rb_interned_str_cstr()... yes
 checking for rb_ractor_local_storage_value_newkey()... yes
@@ -17,20 +17,20 @@ checking for rb_prepend_module()... yes
 checking for gperf... yes
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ho2m1f sitelibdir\=./.gem.20260917-111572-ho2m1f clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-9th55v sitelibdir\=./.gem.20260925-6994-9th55v clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ho2m1f sitelibdir\=./.gem.20260917-111572-ho2m1f
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-9th55v sitelibdir\=./.gem.20260925-6994-9th55v
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling console.c
 linking shared-object io/console.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ho2m1f sitelibdir\=./.gem.20260917-111572-ho2m1f install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-9th55v sitelibdir\=./.gem.20260925-6994-9th55v install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 console.so ./.gem.20260917-111572-ho2m1f/io
+/usr/bin/install -c -m 0755 console.so ./.gem.20260925-6994-9th55v/io
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-ho2m1f sitelibdir\=./.gem.20260917-111572-ho2m1f clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/io-console-0.9.3/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-9th55v sitelibdir\=./.gem.20260925-6994-9th55v clean

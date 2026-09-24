@@ -1,4 +1,4 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
 /usr/bin/ruby extconf.rb
 checking for whether -std=gnu99 is accepted as CFLAGS... yes
 checking for whether -Wimplicit-fallthrough is accepted as CFLAGS... yes
@@ -8,12 +8,12 @@ checking for whether -Wnullable-to-nonnull-conversion is accepted as CFLAGS... n
 checking for whether -DNDEBUG is accepted as CFLAGS... yes
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-k3zupb sitelibdir\=./.gem.20260917-111572-k3zupb clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-mskfpp sitelibdir\=./.gem.20260925-6994-mskfpp clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-k3zupb sitelibdir\=./.gem.20260917-111572-k3zupb
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-mskfpp sitelibdir\=./.gem.20260925-6994-mskfpp
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling ./../../src/ast.c
 compiling ./../../src/lexer.c
@@ -35,10 +35,10 @@ compiling main.c
 compiling rbs_string_bridging.c
 linking shared-object rbs_extension.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-k3zupb sitelibdir\=./.gem.20260917-111572-k3zupb install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-mskfpp sitelibdir\=./.gem.20260925-6994-mskfpp install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20260917-111572-k3zupb
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20260925-6994-mskfpp
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-k3zupb sitelibdir\=./.gem.20260917-111572-k3zupb clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/rbs-4.2.0/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-mskfpp sitelibdir\=./.gem.20260925-6994-mskfpp clean

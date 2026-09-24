@@ -1,4 +1,4 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
 /usr/bin/ruby extconf.rb
 checking for pkg-config for openssl... [" ", "", "-lssl -lcrypto"]
 ──── Using OpenSSL pkgconfig (openssl.pc) ────
@@ -23,22 +23,22 @@ checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
 
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-5f68es sitelibdir\=./.gem.20260917-111572-5f68es clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-dd7vh4 sitelibdir\=./.gem.20260925-6994-dd7vh4 clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-5f68es sitelibdir\=./.gem.20260917-111572-5f68es
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-dd7vh4 sitelibdir\=./.gem.20260925-6994-dd7vh4
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-5f68es sitelibdir\=./.gem.20260917-111572-5f68es install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-dd7vh4 sitelibdir\=./.gem.20260925-6994-dd7vh4 install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20260917-111572-5f68es/puma
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20260925-6994-dd7vh4/puma
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-5f68es sitelibdir\=./.gem.20260917-111572-5f68es clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/puma-8.0.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-dd7vh4 sitelibdir\=./.gem.20260925-6994-dd7vh4 clean

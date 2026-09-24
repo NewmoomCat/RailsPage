@@ -1,4 +1,4 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
 /usr/bin/ruby extconf.rb
 checking for fdatasync() in unistd.h... yes
 checking for fstatat() in sys/stat.h... yes
@@ -7,20 +7,20 @@ checking for whether -O3 is accepted as CFLAGS... yes
 checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ukjmeg sitelibdir\=./.gem.20260917-111572-ukjmeg clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-ge7aaf sitelibdir\=./.gem.20260925-6994-ge7aaf clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ukjmeg sitelibdir\=./.gem.20260917-111572-ukjmeg
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-ge7aaf sitelibdir\=./.gem.20260925-6994-ge7aaf
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ukjmeg sitelibdir\=./.gem.20260917-111572-ukjmeg install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-ge7aaf sitelibdir\=./.gem.20260925-6994-ge7aaf install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20260917-111572-ukjmeg/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20260925-6994-ge7aaf/bootsnap
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-ukjmeg sitelibdir\=./.gem.20260917-111572-ukjmeg clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.26.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-ge7aaf sitelibdir\=./.gem.20260925-6994-ge7aaf clean

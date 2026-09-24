@@ -1,18 +1,18 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
 /usr/bin/ruby extconf.rb
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-82hk8m sitelibdir\=./.gem.20260917-111572-82hk8m clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-myoics sitelibdir\=./.gem.20260925-6994-myoics clean
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-82hk8m sitelibdir\=./.gem.20260917-111572-82hk8m
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-myoics sitelibdir\=./.gem.20260925-6994-myoics
 compiling cruby.c
 linking shared-object skiptrace/internal/cruby.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-82hk8m sitelibdir\=./.gem.20260917-111572-82hk8m install
-/usr/bin/install -c -m 0755 cruby.so ./.gem.20260917-111572-82hk8m/skiptrace/internal
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-myoics sitelibdir\=./.gem.20260925-6994-myoics install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20260925-6994-myoics/skiptrace/internal
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-82hk8m sitelibdir\=./.gem.20260917-111572-82hk8m clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-myoics sitelibdir\=./.gem.20260925-6994-myoics clean

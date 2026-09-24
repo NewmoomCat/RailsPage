@@ -1,21 +1,21 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
 /usr/bin/ruby extconf.rb
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-1krhvo sitelibdir\=./.gem.20260917-111572-1krhvo clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-gqenov sitelibdir\=./.gem.20260925-6994-gqenov clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-1krhvo sitelibdir\=./.gem.20260917-111572-1krhvo
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-gqenov sitelibdir\=./.gem.20260925-6994-gqenov
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling cparse.c
 linking shared-object racc/cparse.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-1krhvo sitelibdir\=./.gem.20260917-111572-1krhvo install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-gqenov sitelibdir\=./.gem.20260925-6994-gqenov install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20260917-111572-1krhvo/racc
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260925-6994-gqenov/racc
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-1krhvo sitelibdir\=./.gem.20260917-111572-1krhvo clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-gqenov sitelibdir\=./.gem.20260925-6994-gqenov clean

@@ -1,4 +1,4 @@
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
 /usr/bin/ruby extconf.rb
 checking for rb_enc_interned_str() in ruby/encoding.h... yes
 checking for rb_str_to_interned_str() in ruby.h... yes
@@ -15,20 +15,20 @@ checking for x86intrin.h... yes
 checking for cpuid.h... yes
 creating Makefile
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ce32uw sitelibdir\=./.gem.20260917-111572-ce32uw clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-zv5bzf sitelibdir\=./.gem.20260925-6994-zv5bzf clean
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ce32uw sitelibdir\=./.gem.20260917-111572-ce32uw
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-zv5bzf sitelibdir\=./.gem.20260925-6994-zv5bzf
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
 compiling parser.c
 linking shared-object json/ext/parser.so
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
-make -j3 DESTDIR\= sitearchdir\=./.gem.20260917-111572-ce32uw sitelibdir\=./.gem.20260917-111572-ce32uw install
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260925-6994-zv5bzf sitelibdir\=./.gem.20260925-6994-zv5bzf install
 make: 警告: 子 make 中强制 -j3: 重置 jobserver 模式。
-/usr/bin/install -c -m 0755 parser.so ./.gem.20260917-111572-ce32uw/json/ext
+/usr/bin/install -c -m 0755 parser.so ./.gem.20260925-6994-zv5bzf/json/ext
 
-current directory: /home/neko/rails/first/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20260917-111572-ce32uw sitelibdir\=./.gem.20260917-111572-ce32uw clean
+current directory: /home/neko/rails/RailsPage/vendor/bundle/ruby/3.4.0/gems/json-3.0.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20260925-6994-zv5bzf sitelibdir\=./.gem.20260925-6994-zv5bzf clean

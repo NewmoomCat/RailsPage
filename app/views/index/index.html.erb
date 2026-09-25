@@ -1,18 +1,24 @@
 <% content_for :title, @page_name %>
 <header>
-  <h1 class="h1">Index Page</h1>
+  <div class="text-lg text-cyan-200">
+    <h1 class="h1">Index Page</h1>
+  </div>
 </header>
 <main style="font-size: 19px">
   <%= image_tag "/images/ii.jpg", alt: "Reisa Index Image", style: "width: 210px; height: 210px;"%>
+  <br>
   <p><%= simple_format(@text) %></p>
+  <br>
   <ul>
     <li><%= link_to "@ Neko's Page", me_path%></li>
     <li><i class="fa-brands fa-bilibili"></i><%= link_to " Bilibili", "https://space.bilibili.com/562830332", target: "_blank"%></li>
   </ul>
+  <br>
   <p><%= link_to "Blogs Page", blogs_path %></p>
   <p><%= link_to "My Projects", projects_path %></p>
 </main>
 <footer class="footer">
+  <br>
   <p style="font-size: 10px">I'm a right lazy git, I can't even be arsed to style the bloody page.</p>
   <p>&copy; 2026 <%= @name %>. All rights reserved.</p>
 </footer>
